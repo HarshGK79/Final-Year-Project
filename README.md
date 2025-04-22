@@ -58,8 +58,8 @@ Clone the repository:
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/8bit-ALU-OpenSourceEDA.git
-cd 8bit-ALU-OpenSourceEDA
+git clone https://github.com/HarshGK79/Final-Year-Project.git
+cd Final-Year-Project
 Install Qflow and Dependencies
 Use VSDFlow by Kunal Ghosh or follow manual setup instructions.
 
@@ -67,9 +67,8 @@ Place your Verilog file in Qflow's project folder
 Run:
 
 bash
-Copy
-Edit
-qflow synthesize place route alu
+qflow gui
+
 View results:
 
 Open layout in Magic: magic layout/alu.mag
